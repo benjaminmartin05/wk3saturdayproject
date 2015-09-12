@@ -1,0 +1,7 @@
+.item{
+	min-height: 100px;
+	background:gray;
+	border: 2px solid black;
+}
+
+.area-top{ position:fixed; height:2em; }
