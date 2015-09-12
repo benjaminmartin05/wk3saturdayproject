@@ -1,3 +1,6 @@
+body {
+	background-color:#EDEEFF; 
+}
 .item{
 	min-height: 100px;
 	background:gray;
@@ -5,3 +8,48 @@
 }
 
 .area-top{ position:fixed; height:2em; }
+
+		.name {
+			text-align: center;
+			color: blue; 
+			font-weight: 30;
+			font-size: 150;
+			
+    		
+		}
+
+		.category {
+			text-align: center;
+			color: red; 
+			font-weight: 30;
+			font-size: 100;
+			
+    		
+		}
+
+		.highlights {
+			text-align: center;
+			color: green; 
+			font-weight: 30;
+			font-size: 100;
+			
+    		
+		}
+
+		.price {
+			text-align: center;
+			color: black; 
+			font-weight: 30;
+			font-size: 100;
+			
+    		
+		}
+
+		.picture {
+			text-align: center;
+			color: 72FF2E; 
+			font-weight: 30;
+			font-size: 100;
+			
+    		
+		}
