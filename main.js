@@ -65,7 +65,8 @@ function add_to_page(item_name, item_price, item_category, item_image, item_high
         $('#content').append($('<div id=book1>').html($('<div class=name>').text(item_name)));
         $('#content').append($('<div id=book1>').html($('<div class=price>').text(item_price)));
         $('#content').append($('<div id=book1>').html($('<div class=category>').text(item_category)));
-        $('#content').append($('<div id=book1>').html($('<div class=picture>').text(item_image)));
+        $('#content').append($('<div id=book1>').html($('<img class=picture>').attr('src', 'item_image')));
+        //attempting to get our images to showcase, changed from div to  img and text to attr
         $('#content').append($('<div id=book1>').html($('<div class=highlights>').text(item_highlights)));
 };
 
